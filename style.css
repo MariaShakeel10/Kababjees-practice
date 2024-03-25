@@ -37,7 +37,7 @@ font-weight: 200;
 .text-3 {
     color: var(--grey);
     background-color: var(--dblack);
-    height: 60vh;
+    
 }
 .text-3 h1 {
     color: var(--ivory);
