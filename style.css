@@ -56,7 +56,7 @@
 .box-4 {
     background-image: url(images/back1.jpg);
     height: 700px;
-    /* background-repeat: no-repeat; */
+    background-size: 100% ;
     width: 100%;
     z-index: -100;
     position: relative;
@@ -100,9 +100,64 @@ background-color: rgba(240, 248, 255, 0) !important;
 .phone:hover {
     border-bottom: 2px solid var(--brown);
     width: max-content;
+    text-align: center;
 }
 .btn-call {
     background-color: var(--brown);
     color: var(--dblack);
     border: var(--brown);
+}
+/* box 6 */
+.box6 {
+    background-image: url(images/16.jpg);
+    background-size: 100%;
+}
+.box6 img {
+    width: 40% !important;
+    height: 50% !important;
+    z-index: -1 !important;
+    /* align-items: center !important; */
+}
+/* box7 */
+.box-7 {
+    background-color: var(--dblack);
+}
+.seven {
+    background-color: var(--dblack);
+    color: var(--ivory)
+}
+.image-7 {
+    border-radius: 5px;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+.image-7:hover {
+    -webkit-animation-name: zoomIn !important;
+    animation-name: zoomIn !important;
+}
+
+/* footer */
+.footer {
+    background-color: var(--dblack) !important;
 }
